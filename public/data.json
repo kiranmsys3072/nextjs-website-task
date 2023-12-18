@@ -1,0 +1,32 @@
+
+[
+  {
+    "id": 1,
+    "title": "Course 1",
+    "imageUrl": "https://5.imimg.com/data5/DL/JH/MY-8159159/hp-laptop.jpg",
+    "courseName": "Introduction to Something",
+    "description": "This is a brief description of the course."
+  },
+  {
+    "id": 2,
+    "title": "Course 2",
+    "imageUrl": "https://5.imimg.com/data5/DL/JH/MY-8159159/hp-laptop.jpg",
+    "courseName": "Advanced Topics",
+    "description": "This course covers advanced topics in a specific field."
+  },
+  {
+    "id": 3,
+    "title": "Course 3",
+    "imageUrl": "https://5.imimg.com/data5/DL/JH/MY-8159159/hp-laptop.jpg",
+    "courseName": "Introduction to Something",
+    "description": "This is a brief description of the course."
+  },
+  {
+    "id": 4,
+    "title": "Course 4",
+    "imageUrl": "https://5.imimg.com/data5/DL/JH/MY-8159159/hp-laptop.jpg",
+    "courseName": "Advanced Topics",
+    "description": "This course covers advanced topics in a specific field."
+  }
+  
+]
