@@ -6,12 +6,12 @@ const page = () => {
         
 
   return (
-      <>
+      <div className='bg-orange-100'>
 
       <PageForm/>
 
 
-      </>
+      </div>
   )
    
   

@@ -21,7 +21,7 @@ const page = () => {
     <div className="bg-gray-100 p-8">
       <div className="container mx-auto my-8">
         <h1 className="text-4xl font-bold text-center mb-8 text-gray-800">
-          Posts
+          Latest Posts
         </h1>
         {data.length ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -32,18 +32,20 @@ const page = () => {
                   console.log(post.id);
                 }}
               >
-                <h2 className="text-xl font-semibold mb-4 text-gray-900">
-                  {post.title}
-                </h2>
-                <p className='text-gray-700"'>{post.id}</p>
-                <button
-                  className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
-                  onClick={() => {
-                    router.push(`/posts/${post.id}`);
-                  }}
-                >
-                  ViewMore
-                </button>
+                <center>
+                  <h2 className="text-xl font-semibold mb-4 text-gray-900">
+                    {post.title}
+                  </h2>
+                  <p className="text-gray-700 p-2">{post.id}</p>
+                  <button
+                    className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+                    onClick={() => {
+                      router.push(`/posts/${post.id}`);
+                    }}
+                  >
+                    ViewMore
+                  </button>
+                </center>
               </div>
             ))}
           </div>

@@ -4,10 +4,10 @@ import React from "react";
 const Home = ({ data }) => {
   return (
     <div
-      className="relative h-screen bg-cover bg-center"
+      className="relative h-screen bg-cover "
       style={{
         backgroundImage:
-          "url('https://images.pexels.com/photos/1906440/pexels-photo-1906440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
+          "url('https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=600')",
       }}
     >
       {/* Overlay */}
@@ -30,3 +30,7 @@ const Home = ({ data }) => {
 };
 
 export default Home;
+
+//https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=600
+
+//https://images.pexels.com/photos/1906440/pexels-photo-1906440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
